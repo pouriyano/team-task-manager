@@ -1,4 +1,5 @@
 Team Task Manager
+
 Project Overview
 A team and task management system that allows user registration, team creation, joining teams, managing tasks, and commenting. Only the team leader can create, update, or delete tasks for their team members.
 
@@ -219,4 +220,5 @@ bcrypt for password hashing
 
 
 Author
+
 Pouriya Noghani
