@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Team Task Manager
 
 ## Project Overview
@@ -111,9 +110,12 @@ Joi for input validation
 
 bcrypt for password hashing
 
+Important Notes
+Make sure .env is included in .gitignore to avoid leaking sensitive information.
+
+Role-based access control is enforced so that only team leaders can create, update, or delete tasks.
+
+Passwords and team passwords are hashed with bcrypt before storage.
 
 Author
 Pouriya Noghani
-=======
-# team-task-manager
->>>>>>> 768fdfa31f05780aba5b63a436c0832fcfb4e91c
