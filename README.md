@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Team Task Manager
 
 ## Project Overview
@@ -113,3 +114,6 @@ bcrypt for password hashing
 
 Author
 Pouriya Noghani
+=======
+# team-task-manager
+>>>>>>> 768fdfa31f05780aba5b63a436c0832fcfb4e91c
