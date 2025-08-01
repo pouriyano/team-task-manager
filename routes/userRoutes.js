@@ -7,8 +7,8 @@ const userController=require('../controller/usercontroller');
 
 
 
-router.post('user/register',userController.register)
-router.post('user/login',userController.login)
+router.post('/register',userController.register)
+router.post('/login',userController.login)
 
 
 
