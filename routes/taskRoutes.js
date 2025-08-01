@@ -5,11 +5,11 @@ const auth=require('../middlewares/auth')
 
 router.use(auth.authForUser)
 router.use(auth.authForTeam)
-router.post('/task/make', taskController.createTask);
-router.get('/task', taskController.getAllTasks);
-router.get('/task/user/:username', taskController.getTasksByUsername);
-router.get('/task/team/:teamName', taskController.getTasksByTeam);
-router.put('/:taskId', taskController.updateTask);
-router.delete('/task/:taskId', taskController.deleteTask);
+router.post('task/create', taskController.createTask);
+router.get('task/all', taskController.getAllTasks);
+router.get('task/user/:username', taskController.getTasksByUsername);
+router.get('task/team/:teamName', taskController.getTasksByTeam);
+router.put('task/update/:taskId', taskController.updateTask);
+router.delete('task/delete/:taskId', taskController.deleteTask);
 
 module.exports = router;
